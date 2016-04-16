@@ -16,15 +16,12 @@ Since there are a few dozen other packages involved, please send pull requests t
 
 <a href="#links" name="links">3. Links</a>
 
+<a href="#about" name="about">4. About</a>
 
-## [Main Links](#links)
-
-- **Downloads** Please find all pre-build binaries on our [main page](http://net-commander.com/downloads)
-- **Issues** You can post issues [here](https://github.com/gbaumgart/Net-Commander/issues)
 
 <hr/>
 
-## [Brief Overview - Source - Code & Packages](#overview)
+## [1. Brief Overview - Source - Code & Packages](#overview)
 
 <img src="https://raw.githubusercontent.com/net-commander/net-commander/master/misc/overview_code.png"/><br/>
 
@@ -52,7 +49,7 @@ Notice: the diagram refers to the deployed version of the IDE. The source versio
 
 
 
-## [Source Code - Repositories](#source)
+## [2. Source Code - Repositories](#source)
 
 Since there different package managers in charge, the whole IDE is a composition of git sub modules.
 
@@ -82,15 +79,18 @@ Repo: [https://gitlab.com/xamiro/xjs.git](https://gitlab.com/xamiro/xjs.git)
 Please check the Readme of this repo for more details
 
  
+## [3. Main Links](#links)
+
+- **Downloads** Please find all pre-build binaries on our [main page](http://net-commander.com/downloads)
+- **Issues** You can post issues [here](https://github.com/gbaumgart/Net-Commander/issues)
 
 
+## [4. About](#about)
 
+This project is actively in development since the last 3.5 years and is based on shared interests between [MediaMerge, Inc.](http://mediamerge.com) and Pearls-Media-Publishing Ltd.
 
+Media-Merge contacted us to develop further an abandoned project "Maqetta" from IBM. Since there was quit some overlap with our interests of developing App-Studios for the Mass, the project began instantly!
 
-
-
-
-
-
+more tbc
 
 
