@@ -24,9 +24,33 @@ Since there are a few dozen other packages involved, please send pull requests t
 
 <hr/>
 
-## [Overview - Source - Code & Packages](#overview)
+## [Brief Overview - Source - Code & Packages](#overview)
 
 <img src="https://raw.githubusercontent.com/net-commander/net-commander/master/misc/overview_code.png"/><br/>
+
+Notice: the diagram refers to the deployed version of the IDE. The source version differs. 
+
+1. *Client - JS*: Dojo/AMD/Require-JS based application. Additional Dependencies: jQuery and a few Boostrap-3 plugins. This codebase is re-used by the Node-JS server app (see 9.)
+
+2. *PHP*: There is a self-written PHP framework with almost no dependencies in place. Its used by the IDE client over JSON-RPC-2.0 (with Dojo - SMD). This might get replaced by a Node-JS implementation since its only doing tiny things
+
+3. *NGINX*: only needed when deployed. You can also just use your Apache or any other web-server
+
+4. *Data-Files*: the IDE produces only data files, being consumed by the *device controller* (see 5.)
+
+5. *Device - Controller*: A Node-JS application. In the deployed variant its compiled almost into all-in-one executable
+
+6. *MQTT-Server*: Is driven by the Node-JS Mosca package and runs embedded in the main Node-JS application.
+
+7. *WS-Server*: The web-socket server is primarily for the IDE or control-applications. Also MQTT commands go through this pipe.
+ 
+8. *MQTT-Client*: Each external web client gets and internal and indirect MQTT connection. This connection is being used, or better said: abused to synchronize certain device states.
+
+9. *Server-JS*: As mentioned, this part is using parts of the Client-Framework too. Only in some cases its using a server-side only implementation. That allows us to debug certain parts in the browser.  
+
+10. *Mongo*: The MONGO server is rather optional, its used a storage adapter for Mosca and can be replaced for Redis or similar.
+
+
 
 ## [Source Code - Repositories](#source)
 
