@@ -8,6 +8,10 @@ This is the main source package of the Net-Commander IDE and it serves as repo f
 
 Since there are a few dozen other packages involved, please send pull requests through the appropriate repo.
 
+## Index
+
+### 1. <a name="source">Source Code</a>
+
 ## Main Links
 
 - **Downloads** Please find all pre-build binaries on our [main page](http://net-commander.com/downloads)
@@ -15,7 +19,9 @@ Since there are a few dozen other packages involved, please send pull requests t
 
 <hr/>
 
-## Source Code - Repositories
+
+
+## [Source Code - Repositories](#source)
 
 Since there different package managers in charge, the whole IDE is a composition of git sub modules.
 
