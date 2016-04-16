@@ -10,9 +10,10 @@ Since there are a few dozen other packages involved, please send pull requests t
 
 ## Index
 
-### 1. <a name="source">Source Code</a>
+### 1. <a href="#source" name="source">Source Code</a>
+### 2. <a href="#links" name="links">Links</a>
 
-## Main Links
+## [Main Links](#links)
 
 - **Downloads** Please find all pre-build binaries on our [main page](http://net-commander.com/downloads)
 - **Issues** You can post issues [here](https://github.com/gbaumgart/Net-Commander/issues)
