@@ -10,8 +10,8 @@ Since there are a few dozen other packages involved, please send pull requests t
 
 ## Index
 
-### 1. <a href="#source" name="source">Source Code</a>
-### 2. <a href="#links" name="links">Links</a>
+### <a href="#source" name="source">1. Source Code</a>
+### <a href="#links" name="links">2. Links</a>
 
 ## [Main Links](#links)
 
