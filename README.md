@@ -8,6 +8,10 @@ This is the main source package of the Net-Commander IDE and it serves as repo f
 
 Since there are a few dozen other packages involved, please send pull requests through the appropriate repo.
 
+
+**Attention:** This repo and document is being under construction and incomplete. There is no full source code for Net-Commander here.
+We are currently porting lots of packages from SVN and Gitlab to here and into the npm package registry. Please come back in a few weeks.
+
 ## Index
 
 <a href="#source" name="source">1. Overview</a>
