@@ -31,7 +31,12 @@ We are currently porting lots of packages from SVN and Gitlab to here and into t
 
 Notice: the diagram refers to the deployed version of the IDE. The source version differs. 
 
-1. *Client - JS*: Dojo/AMD/Require-JS based application. Additional Dependencies: jQuery and a few Boostrap-3 plugins. This codebase is re-used by the Node-JS server app (see 9.)
+1. *Client - JS*: Dojo/AMD/Require-JS based application. Additional Dependencies: jQuery and a few Boostrap-3 plugins. This codebase is re-used by the Node-JS server app (see 9.) 
+
+Internal Package Count: 7
+External Minimum Packages: 5 
+jQuery Plugin Count: 4
+
 
 2. *PHP*: There is a self-written PHP framework with almost no dependencies in place. Its used by the IDE client over JSON-RPC-2.0 (with Dojo - SMD). This might get replaced by a Node-JS implementation since its only doing tiny things
 
