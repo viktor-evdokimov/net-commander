@@ -27,7 +27,7 @@ We are currently porting lots of packages from SVN and Gitlab to here and into t
 
 ## [1. Brief Overview - Source - Code & Packages](#overview)
 
-<img src="https://raw.githubusercontent.com/net-commander/net-commander/master/misc/overview_code.png"/><br/>
+<img src="https://raw.githubusercontent.com/net-commander/net-commander/Import/misc/overview_code.png"/><br/>
 
 Notice: the diagram refers to the deployed version of the IDE. The source version differs. 
 
